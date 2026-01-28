@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 JAN 2026 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  28 JAN 2026 08:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -410,37 +410,37 @@ cal/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2
 /fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []\T1/lmr/m/n/10 Level of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 \T1/lmr/m/n/10 in-struc-tion
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 194--194
+Underfull \hbox (badness 2326) in paragraph at lines 199--199
 \T1/lmr/m/n/5 0--Little or none
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 \T1/lmr/m/n/5 1--moderate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []\T1/lmr/m/n/10 Student
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 \T1/lmr/m/n/10 Out-come
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 \T1/lmr/m/n/10 in-di-ca-tor
  []
 
@@ -460,10 +460,10 @@ hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9586 strings out of 473190
- 151341 string characters out of 5715801
+ 9589 strings out of 473190
+ 151411 string characters out of 5715801
  565607 words of memory out of 5000000
- 32687 multiletter control sequences out of 15000+600000
+ 32689 multiletter control sequences out of 15000+600000
  595246 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,945b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -475,10 +475,10 @@ ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
 blic/lm/lmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7
 .pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on ME2240-Heat-Transfer-Syllabus.pdf (5 pages, 191351 bytes).
+Output written on ME2240-Heat-Transfer-Syllabus.pdf (5 pages, 191696 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 30 named destinations out of 1000 (max. 500000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 31 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
