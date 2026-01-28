@@ -5,4 +5,4 @@ Repository of course materials for the Heat Transfer course taught by Dr. Yves D
 ## Syllabus
 The current syllabus is available [here](https://github.com/yvesdubief/UVM-ME2240-HeatTransfer/tree/main/Syllabus)
 ## Libraries
-
+To use the heat transfer libraries, download the file Libraries.zip in the your working folder and uncompress it. 

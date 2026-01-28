@@ -1,0 +1,257 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage{geometry}%
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue
+    }
+\geometry{tmargin=1in,lmargin=1in,rmargin=1in}%
+\usepackage{enumitem}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\section*{ME 2240 A Heat and Mass Transfer (GC)}%
+\label{sec:ME144AHeatTransfer}%
+\begin{tabular}{lll}%
+Semester&Spring 2026&\\%
+Classroom&Waterman 413&\\%
+Meeting time&8:30{-}{-}9:45&\\% 
+Instruction&Yves Dubief, ydubief@uvm.edu \\
+&Office hours: W 9-11 Votey 201A\\%
+&&\\%
+TA(s)& TBA \\
+&Office hours: TBAS\\%
+&&\\%
+Prerequisites&ME 2230, Python &\\%
+&&\\%
+Note 1: & ME 2240 satisfies the GC1 Catamount Core requirement. GC1 courses address systems and  \\
+&problems that are global in scope. These courses will help students understand the nature \\
+& and complexity of global phenomena. ME 2240 address ecological, technological, and human \\
+& health problems related to heat and mass transfer in our increasingly interdependent world. \\
+&Students will explore both the unique emerging problems and the opportunities created \\
+& by such interdependence and interconnectedness. \\
+&&\\%
+Note2: &  Heat transfer problem are mostly solved in python. Students are expected to bring their \\
+&python-able laptop or tablet to all classes. This class uses Jupyter for python IDE. \href{https://github.com/conda-forge/miniforge}{Miniforge} \\
+&is the recommended python installation. Students are also expected to install a working \LaTeX \\
+&distribution for their \href{https://miktex.org/}{Windows}  or \href{https://www.tug.org/mactex/}{Mac} operating system. \\%
+&&\\%
+Credit hours&3&\\%
+&&\\%
+Textbook&Optional: Fundamentals of Heat and Mass Transfer, 8th Edition, ISBN{-}13: 978{-}1119582786&\\%
+&Theodore L. Bergman, Adrienne S. Lavine, Frank P. Incropera, David P. DeWitt&\\%
+&&\\%
+Software&Python 3 with jupyter lab&\\%
+&\url{https://github.com/yvesdubief/UVM-ME144-Heat-Transfer}&\\%
+\end{tabular}%
+\subsection*{Course description}%
+\label{subsec:Coursedescription}%
+
+%
+One- and two-dimensional steady and unsteady thermal conduction; natural and forced internal and external convection; thermal radiation; heat exchangers; boiling and condensation heat transfer, mass transfer, heat and mass transfer in the context of global citizenship%
+\subsection*{Course objectives}%
+\label{subsec:Courseobjectives}%
+
+%
+\begin{enumerate}[label=\alph*)]%
+\item%
+To demonstrate the ability to understand and identify relevant modes of heat transfer in physical problems and to demonstrate the ability to apply conservation of energy in heat transfer problem.%
+\item%
+To demonstrate the ability to analyze 1D and solve multi-dimensional steady-state heat conduction in bodies with various thermal boundary conditions and multiple component materials. %
+\item%
+To demonstrate the ability to model and simulate unsteady simplified heat transfer problems with appropriate boundary conditions including phase change.%
+\item%
+To demonstrate the ability to understand the mechanisms of convective and radiative heat transfers and to demonstrate the ability to utilize analytical and empirical relations for the solution of engineering heat transfer problems.%
+\item%
+To demonstrate the ability to design a heat transfer system based on many factors (e.g. historical or forecasted weather data) and many constraints such as optimization of costs, minimization of environmental and/or health impacts.%
+\item%
+An ability to recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts.%
+\item%
+Students will understand major implications of climate change on human habitat, including their historic and contemporary interconnections and the differential effects of human organizations and actions.
+\item%
+Students will be able to plan, discern, and evaluate appropriate complex solutions to the challenges posed by climate change using multiple disciplinary scientific perspectives .
+\end{enumerate}%
+\subsection*{Grading scheme}%
+\label{subsec:Gradedistributionandassessment}%
+
+There will be 8 individual homework assignments, 2 exams, and 3 group projects (2 small projects, and one final project building on the small projects). The final grade is based on three overall grades $HW$, $E$, $P$:
+\begin{itemize}
+\item HW assignments ($HW$): Average of all homework grades
+\item Exam grade $E$ is a function of two exam grades $E_1$ and $E_2$: $E=\alpha\min(E_1,E_2)+(1-\alpha)\max(E_1,E_2)$. $\alpha$ is typically 0.15 but may be adjusted depending on grade distribution
+\item Project grade $P$ is a function of two small project $P_1$, $P_2$ and one final project $P_f$: $P=(\min(P_1,P_2)+2\max(P_1,P_2)+4P_f$
+\end{itemize}
+
+The final grade is $0.25HW+0.35E+0.4P$
+
+\textbf{There is no final exam}, the final project is due on the Wednesday of exam week. The two in-class exams will be staggered. Half the class will take their exam on Tuesday, the other on Thursday. During exams, a formula sheet is provided, your own formula sheet is accepted. No textbook or electronics are allowed. Exams are designed to test theoretical knowledge of heat transfer and proficiency in problem solving of heat transfer problem. Exams may contain algebraic derivations, but no complex numerical calculations.
+
+Projects are solved by groups of 2 students. The two small projects will have a turnaround time of 2 weeks. These two projects will build on mostly-completed codes. The focus of these projects will be mostly interpretations and discussions of the results of the projects. The final project builds on the codes developed in the first two projects. The project will be proposed early April, with the last 3 weeks of class consisting of one special topics lecture on Tuesdays and in-class project work on Thursday.  Metrics of assessment  will be provided for each project.
+%
+%\begin{tabular}{|l|c|}%
+%\hline%
+%Weekly assignments&40 \%\\%
+%In{-}class exams&30 \%\\%
+%Project&30 \%\\%
+%\hline%
+%\end{tabular}%
+%\linebreak%
+%
+\subsection*{Letter grade distribution}%
+\label{subsec:Lettergradedistribution}%
+
+
+%
+\begin{tabular}{|cl||cl|}%
+\hline%
+100.0{-}{-}96.00&A+&73.00{-}{-}76.99&C\\%
+\hline%
+95.99{-}{-}93.00&A&70.00{-}{-}72.99&C{-}\\%
+\hline%
+90.00{-}{-}92.99&A{-}&67.00{-}{-}69.99&D+\\%
+\hline%
+87.00{-}{-}89.99&B+&63.00{-}{-}66.99&D\\%
+\hline%
+83.00{-}{-}86.99&B&60.00{-}{-}62.99&D{-}\\%
+\hline%
+80.00{-}{-}82.99&B{-}&59.99{-}{-}00.00&F\\%
+\hline%
+77.00{-}{-}79.99&C+& &  \\%
+\hline%
+\end{tabular}%
+\subsection*{Policies}%
+\label{subsec:Policies}%
+
+%
+\subsection*{Classroom Environment Expectations}%
+\label{subsec:ClassroomEnvironmentExpectations}%
+
+%
+\begin{itemize}
+\item Working in groups is encouraged at the beginning of the semester. If so, please enter the names of students in your study group at the beginning of the notebook. 
+\item You are expected to follow the Code of Academic Integrity of the University of Vermont and expectations written in Our Common Ground.Any act plagiarism will result in no more than one warning. Further violation of the academic integrity contract will result in a report to the Center for Student Conduct and a grade of zero for the assignment. 
+\item Office hours will be conducted both online and in person, simultaneously. Be courteous and productive. Post any question regarding the course and its content on MT general conversation. Instructors and TAs will answer your question posted on the days of office hours within 24 hours. 
+\item 
+\end{itemize}
+Working in groups is encouraged at the beginning of the semester. If so, please enter the names of students in your study group at the beginning of the notebook. You are expected to follow the Code of Academic Integrity of the University of Vermont and expectations written in Our Common Ground. Any act plagiarism will result in no more than one warning. Further violation of the academic integrity contract will result in a report to the Center for Student Conduct and a grade of zero for the assignment. Office hours will be conducted both online and in person, simultaneously. Be courteous and productive. Post any question regarding the course and its content on MT general conversation. Instructors and TAs will answer your question within 24 hours. Students are expected to use blackboard for forums and download and upload of course documents, and read emails sent by instructors. %
+\subsubsection*{Late assignment}%
+\label{ssubsec:Lateassignment}%
+
+%
+Assignments are expected to be uploaded on blackboard in the requested format by the deadline set by the instructor. Late assignment will result in a loss of 10/100 points. With sufficient justification, you may ask for an extension no later than 48 hours before the deadline.Please contact the instructor as soon as you can in case of an emergency.%
+\subsection*{Tentative schedule}%
+GC project are global citizenship projects.
+\label{subsec:Tentativeschedule}%
+
+%
+\begin{tabular}{|c|p{5.5in}|}%
+\hline%
+Week&Content\\%
+\hline%
+1-2&Thermodynamics, Modes of heat transfer, Fourier's law, heat transfer coefficients, heat rate, heat transfer\\%
+\hline%
+2-3&Thermal resistance, Python libraries\\%
+\hline%
+3-4&1D planar and radial conduction heat transfer. Numerical simulations of transient 1D heat transfer. \textbf{GC Project 1}: Heat insulation vs. heat storage\\%
+\hline%
+4-5&Heat and Mass Convective transport, External convection flows\\%
+\hline%
+5-6&Internal convection flows, and natural convection flows.\\%
+\hline%
+7& Exam week\\%
+\hline%
+8-9&Heat and mass transfer in the atmosphere. \textbf{GC Project 2}: Simulation of energy cost of a building\\%
+\hline%
+10&Heat exchangers \\%
+\hline%
+11&Phase change\\%
+\hline%
+12& Radiation\\%
+\hline%
+13-15&\textbf{GC Final Project}: Over-the-summer snow storage in a building to reduce the carbon footprint of cross country skiing.\\%
+\hline%
+13&Special topics: Transport of nanoparticles in air \\%
+\hline%
+14& Special topics: Cooling of processing units\\%
+\hline
+15&Exam week\\
+\hline%
+\end{tabular}
+
+
+\subsection*{Relationship to ABET Student Outcomes}
+%
+\begin{tabular}{|p{0.75in}|p{0.75in}|p{4in}|}%
+\hline%
+Level of instruction {\tiny 0--{Little or none} 1--moderate 2--strong} & Student Outcome indicator (1-7)&Student Outcome\\
+\hline
+2 & 1 &
+an ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics \\
+\hline
+2 & 2 &
+an ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors \\
+\hline
+2 & 3 &
+an ability to communicate effectively with a range of audiences \\
+\hline
+2 & 4 &
+an ability to recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts \\
+\hline
+2 & 5 &
+an ability to function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives \\
+\hline
+2 & 6 &
+an ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions \\
+\hline
+1 & 7 &
+an ability to acquire and apply new knowledge as needed, using appropriate learning strategies\\ 
+\hline
+\end{tabular}
+
+\subsection*{Statement on AI}
+The use of \textbf{any} AI is prohibited in this class, yet I understand that my ability to impose this requirement is almost impossible. As students of this class, and experts in thermodynamics, you are expected to understand the \href{https://sustainability.wustl.edu/the-hidden-costs-of-ai/}{energy, water, and carbon cost of generative AI} and the \href{https://www.psypost.org/study-finds-chatgpt-eases-students-cognitive-load-but-at-the-expense-of-critical-thinking/}{impact on critical thinking}. You are reminded that one of the  most valuable skills, if not the most valuable, to your future employer is your critical thinking.  
+
+\subsection*{Statement about Academic Integrity}
+\url{https://www.uvm.edu/policies/student/acadintegrity.pdf}
+
+\subsection*{Statement on Alcohol and Cannabis in the Academic Environment}
+As a faculty member, I want you to get the most you can out of this course. You play a crucial role in your education and in your readiness to learn and fully engage with the course material. It is important to note that alcohol and cannabis have no place in an academic environment. They can seriously impair your ability to learn and retain information not only in the moment you may be using, but up to 48 hours or more afterwards. In addition, alcohol and cannabis can:
+\begin{itemize}
+\item Cause issues with attention, memory and concentration
+\item Negatively impact the quality of how information is processed and ultimately stored
+\item Affect sleep patterns, which interferes with long-term memory formation
+\end{itemize}
+It is my expectation that you will do everything you can to optimize your learning and to fully participate in this course.
+
+\subsection*{Statement on Students with Disabilities}
+
+In keeping with University policy, any student with a documented disability interested in utilizing accommodations should contact SAS, the office of Disability Services on campus.  SAS works with students and faculty in an interactive process to explore reasonable and appropriate accommodations, which are communicated to faculty in an accommodation letter.   All students are strongly encouraged to meet with their faculty to discuss the accommodations they plan to use in each course. A student's accommodation letter lists those accommodations that will not be implemented until the student meets with their faculty to create a plan. Contact SAS: A170 Living/Learning Center; 802-656-7753; access@uvm.edu; or www.uvm.edu/access
+Statement on Religious Holidays
+
+Students have the right to practice the religion of their choice. Each semester students should submit in writing to their instructors by the end of the second full week of classes their documented religious holiday schedule for the semester. An arrangement can then be made to make up the missed work.
+
+\subsection*{Statement on Student Athletes}
+
+In order to be excused from classes, student athletes should submit appropriate documentation to the Professor in advance of all scheduling conflicts within the first two weeks of class. Those missing class are expected to submit make-up assignments within a reasonable time period. 
+
+\subsection*{Availability of Class Recordings}
+
+The instructor attempts to record every lecture, barring technical difficulties. You may request access to the live streaming or recording if:
+\begin{itemize}
+\item You are sick and unable to attend. Please contact the instructor via Teams at least 5 mins before the start of class.
+\item You have an excused absence. Please remind the instructor prior to your absence.
+\item The recordings may help with the notes you took during the lecture.
+\end{itemize}
+In-person attendance should be prioritized, therefore the instructor has the right to decline access repeated requests without appropriate documentation for the justification of absences.
+
+
+
+\end{document}
